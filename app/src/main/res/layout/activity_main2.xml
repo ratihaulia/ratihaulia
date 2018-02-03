@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.brahmantyo.ratih_1202150244_modul1.Main2Activity">
+
+    <TextView
+        android:id="@+id/MakanMalam1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Makan Malam"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tempatMakan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="15sp"
+        android:layout_marginBottom="90sp"/>
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:gravity="center"
+        android:text="Menu"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/nasiuduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:gravity="center_horizontal|center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/porsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:gravity="center_horizontal"
+        android:text="Porsi"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/jumlahpesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:gravity="center_horizontal"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:gravity="center_horizontal"
+        android:text="Harga"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/bilangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+</LinearLayout>
